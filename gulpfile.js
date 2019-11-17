@@ -3,9 +3,6 @@ var uglyfly = require('gulp-uglyfly');
 var cleanCSS = require('gulp-clean-css');
 var replace = require('gulp-replace');
 
-
-
-
 gulp.task('compress-js', async function() {
 	gulp.src('static/**/*.js')
 		.pipe(uglyfly())
